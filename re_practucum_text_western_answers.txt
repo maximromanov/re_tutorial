@@ -108,7 +108,6 @@ PART II (more practice)
 	Askin, Leon
 	Berger, Helmut
 	Berger, Senta
-	Brandauer, Klaus Maria
 	Gold, Käthe
 	Haid, Liane
 	Hörbiger, Attila
@@ -123,7 +122,6 @@ PART II (more practice)
 	Schell, Maximilian
 	Schneider, Romy
 	Schwarzenegger, Arnold
-	von Stroheim, Erich
 	Waltz, Christoph
 	Werner, Oskar
 	Vader, Darth
