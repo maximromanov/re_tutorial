@@ -6,20 +6,20 @@
 		EditPad Lite/Pro on Windows
 		Sublime Text or TextMate on Mac
 	Alternatively, either of web RE testers:
-		http://regexpal.com/, http://regexr.com/, 
+		http://regexpal.com/, http://regexr.com/,
 		http://regex101.com/:
 		copy-paste the text into the lower window;
 		test your regular expressions in the upper one.
-		
+
 	Regex Cheat Sheets:
 		http://www.rexegg.com/regex-quickstart.html
-		
+
 INTRO
 1. Try the following regex: [ch]at
 	that	at
 	chat	cat
 	fat	phat
-	
+
 3. Try the following regex: [10][23]
 	02	03	12	13
 
@@ -30,15 +30,15 @@ INTRO
 
 5. Try the following regex: runs?
 	runs	run
-	
+
 6. Try the following regex: 1\d*
 	12345	122345	111111
 	113456	098097	109493
 	510349	673452	005645
-	
+
 7. Try the following regexes:
 	ar?t, a[fr]?t, ar*t, ar+t, a.*t
-	
+
 	1: “at”		2: “art”
 	3: “arrrrt”	4: “aft”
 
@@ -67,7 +67,7 @@ PART I
 
 3. Find all variations of Iṣbahān
 	(construct the shortest possible regular expression):
-	
+
 	EASY:
 	Iṣbahān, Iṣfahān, Isbahan,
 	Isfahan, Esfāhān‎, Esfahān,
@@ -75,20 +75,35 @@ PART I
 	iṣbahān, iṣfahān, isbahan,
 	isfahan, esfāhān‎, esfahān,
 	esfahan, hispahan,
-	
+
 	EASY (BUT TRICKY):
-	Beč (Croatian, Serbian, older Bulgarian), Beç (older Turkish),
-	Bech or Vidnya (Romani), Bécs (Hungarian), Dunaj (Slovene),
-	Fienna (Welsh), Vedunia (Celtic), Вена (Russian), Vídeň (Czech),
-	Viedeň (Slovak), Viên (Vietnamese), Виена (Belarusian, Bulgarian, Macedonian),
-	Viena (Catalan, Lithuanian, Portuguese, Romanian, Spanish, Tagalog),
-	Vienna (Italian), Vienne (French), Βιέννη (Greek), Vieno (Esperanto),
-	Viin (Estonian), Vin - װין (Yiddish), Vín (Irish, Icelandic),
-	Vínarborg (Icelandic variant), Vindobona (Latin), Vīne (Latvian),
-	Viyana (Turkish), Vjenë (Albanian), Vjenna (Maltese), Vyana (Azeri),
-	Wean (local Viennese, Austrian and Bavarian dialects), 維也納 (Chinese),
-	Wene (Afrikaans), Wenen (Dutch), Wiedeń (Polish), Wien (Danish, Finnish, German, Norwegian, Swedish),
-	ウィーン (Japanese), Wina (Indonesian), فيينا (Arabic), وين (Persian)
+	Beč, Beç, Bech, Vidnya,
+	Bécs, Dunaj, Fienna,
+	Vedunia, Вена, Vídeň,
+	Viedeň, Viên, Виена,
+	Viena, Vienna, Vienne,
+	Βιέννη, Vieno, Viin, Vín,
+	Vínarborg, Vindobona, Vīne,
+	Viyana, Vjenë, Vjenna,
+	Vyana, Wean, Wene, Wenen,
+	Wiedeń, Wien, Wina
+
+	NOTE:
+	Beč (Croatian, Serbian, older Bulgarian),
+	Beç (older Turkish), Bech or Vidnya (Romani),
+	Bécs (Hungarian), Dunaj (Slovene), Fienna (Welsh),
+	Vedunia (Celtic), Вена (Russian), Vídeň (Czech),
+	Viedeň (Slovak), Viên (Vietnamese), Виена (Belarusian),
+	Viena (Catalan, Portuguese, Spanish), Vienna (Italian),
+	Vienne (French), Βιέννη (Greek), Vieno (Esperanto),
+	Viin (Estonian), Vin - װין (Yiddish), Vín (Irish),
+	Vínarborg (Icelandic), Vindobona (Latin), Vīne (Latvian),
+	Viyana (Turkish), Vjenë (Albanian), Vjenna (Maltese),
+	Vyana (Azeri), Wean (local Viennese), 維也納 (Chinese),
+	Wene (Afrikaans), Wenen (Dutch), Wiedeń (Polish),
+	Wien (Danish, Finnish, German, Norwegian, Swedish),
+	ウィーン (Japanese), Wina (Indonesian), فيينا (Arabic),
+	وين (Persian)
 
 PART II (more practice)
 
@@ -115,7 +130,7 @@ PART II (more practice)
 	Werner, Oskar
 	Vader, Darth
 
-2. Simple: Construct regular expressions that finds references all Austrian cities.	
+2. Simple: Construct regular expressions that finds references all Austrian cities.
 
 	Major cities in Austria are as follows: Vienna, Graz, Linz,
 	Salzburg, Innsbruck, Klagenfurt, Villach, Wels, Sankt Pölten,
@@ -129,7 +144,7 @@ PART II (more practice)
 	Marchtrenk, Bruck an der Mur, Sankt Veit an der Glan,
 	Korneuburg, Neunkirchen, Hard, Vöcklabruck, Lienz, Rankweil,
 	Hollabrunn, Enns, Brunn am Gebirge, Ried im Innkreis,
-	Bad Vöslau, Waidhofen, Knittelfeld, Trofaiach, Mistelbach,	
+	Bad Vöslau, Waidhofen, Knittelfeld, Trofaiach, Mistelbach,
 	Zwettl, Völkermarkt, Götzis, Sankt Johann im Pongau,
 	Gänserndorf, Gerasdorf bei Wien, Ebreichsdorf, Bischofshofen,
 	Groß-Enzersdorf, Seekirchen am Wallersee, Sankt Andrä
